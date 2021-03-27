@@ -6,13 +6,86 @@
   <title>Meower - Twitter for Cats 😸</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
+  <!-- <header>
     <h1 class="title">Meower - Twitter for Cats 😸🐈</h1>
+  </header> -->
+     <!--::header part start::-->
+     <header id="header" class="main_menu home_menu">
+      <div class="container-fluid">
+          <div class="row align-items-center justify-content-center">
+              <div class="col-lg-11">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                      <a class="navbar-brand" href="index.html"><!--<img src="img/logo.png" alt="logo">-->Meower - Twitter for Cats 😸🐈</a>
+                      <button class="navbar-toggler" type="button" data-toggle="collapse"
+                          data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                          aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="menu_icon">MENU</span>
+                      </button>
+
+                      <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                          <ul class="navbar-nav">
+                              <li class="nav-item">
+                                  <a class="nav-link" href="index.html">Home</a>
+                              </li>
+                              <!-- <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_1"
+                                      role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Account
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown_1">
+                                      <a class="dropdown-item" id="log-in-popbtn" href="#"> Login</a>
+                                      <a class="dropdown-item" id="reg-popbtn" href="#">Sign-up</a>
+                                      
+                                  </div>
+                              </li> -->
+                              <li class="nav-item dropdown">
+                                  <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3"
+                                      role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Sort
+                                  </a>
+                                  <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                      <a class="dropdown-item" id="asc_sort"  href="#">Alphabetical sort</a>
+                                      <a class="dropdown-item" id="des_sort" href="#">Reverse Alphabetical sort</a>
+                                  </div>
+                              </li>
+                              
+                              <li class="nav-item dropdown">
+                                <a id="contact" class="nav-link" href="#">Contact Us</a>
+
+                              </li>
+                              
+                              <li class="nav-item">
+                                  <a class="nav-link" href="contact.html">Project Info</a>
+                              </li>
+                              <!-- <li class="nav-item">
+                                <a  class="nav-link" href="#">Log out</a>
+                              </li> -->
+                          </ul>
+                      </div>
+                      <div class="hearer_icon d-flex">
+                   
+                          <a id="search_1" href="javascript:void(0)">SEARCH</a>
+                      </div>
+                  </nav>
+              </div>
+          </div>
+      </div>
+      <div class="search_input" id="search_input_box">
+          <div class="container ">
+              <div class="d-flex justify-content-between search-inner">
+                  <input type="text" class="form-control" id="search_input" placeholder="Search Here">
+                  <button type="submit" class="btn"></button>
+                  <span class="ti-close" id="close_search" title="Close Search">X</span>
+                  </div>
+          </div>
+      </div>
   </header>
-  <main>
+  <!-- Header part end-->
+  <main id="main">
     <form class="mew-form">
       <div class="error-message">
       </div>
@@ -33,6 +106,34 @@
       <img src="loading.gif" alt="">
     </div>
   </main>
+
+  <section id="reg-popup">
+    <form class="reg-model-pop" action="">
+        <div class="close-btn">X</div>
+        <h4>Project Info</h4>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui vel aliquam eum earum ut dolores, tempore, illo velit vitae ad odio? Aliquid laboriosam sapiente voluptatum neque sunt architecto quae eveniet?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, error iste? Dignissimos facilis maiores fuga, ad tempore corporis cupiditate quasi sunt atque omnis quod fugit autem! Quas iste corporis blanditiis!</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid autem laboriosam sed aspernatur. Ipsum inventore cumque, reprehenderit rem, laudantium, modi doloremque autem sunt esse tenetur quae ea id in ut.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A non vel, magni distinctio neque sapiente debitis, recusandae ipsam hic nemo, eum aperiam. Optio numquam quos sit molestias! Ratione, possimus explicabo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia distinctio maiores ipsa consequatur itaque praesentium in voluptas, qui nihil necessitatibus! Nulla, quidem. Ratione doloribus fuga consequuntur autem commodi odit tempora.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia distinctio maiores ipsa consequatur itaque praesentium in voluptas, qui nihil necessitatibus! Nulla, quidem. Ratione doloribus fuga consequuntur autem commodi odit tempora.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia distinctio maiores ipsa consequatur itaque praesentium in voluptas, qui nihil necessitatibus! Nulla, quidem. Ratione doloribus fuga consequuntur autem commodi odit tempora.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia distinctio maiores ipsa consequatur itaque praesentium in voluptas, qui nihil necessitatibus! Nulla, quidem. Ratione doloribus fuga consequuntur autem commodi odit tempora.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia distinctio maiores ipsa consequatur itaque praesentium in voluptas, qui nihil necessitatibus! Nulla, quidem. Ratione doloribus fuga consequuntur autem commodi odit tempora.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia distinctio maiores ipsa consequatur itaque praesentium in voluptas, qui nihil necessitatibus! Nulla, quidem. Ratione doloribus fuga consequuntur autem commodi odit tempora.</p>
+    </form>
+  </section>
+ 
+
+<!-- log-in popup start-->
+<section id="sort-container">
+    <button id="sort_close">X</button>
+</section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
   <script src="client.js"></script>
 </body>
 </html>
